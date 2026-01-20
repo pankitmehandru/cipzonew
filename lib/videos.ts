@@ -12,14 +12,14 @@ export const videos: Video[] = [
     title: "How to choose crypto",
     creator: "Cipzo Demo",
     language: "Hindi",
-    youtubeId: "dQw4w9WgXcQ",
+    youtubeId: "26pKp6dy9JA",
   },
   {
     id: "2",
     title: "UPI & creator income (Demo)",
     creator: "Cipzo Demo",
     language: "English",
-    youtubeId: "dQw4w9WgXcQ",
+    youtubeId: "c57w3QVNNFE",
   },
 ];
 
