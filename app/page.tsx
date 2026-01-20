@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { videos } from "@/lib/videos";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -16,13 +18,20 @@ export default function Home() {
         </p>
       
         <div className="mt-10 grid gap-4 sm:grid-cols-2">
-          <a
-            href="/watch/1"
+        {videos.map((v) => (
+          <Link
+            key={v.id}
+            href={`/watch/${v.id}`}
             className="rounded-xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
           >
             <div className="aspect-video rounded-lg bg-white/10 mb-3" />
-            <div className="font-semibold">How to choose crypto</div>
-            <div className="text-sm text-white/60 mt-1">Cipzo Demo • Hindi</div>
+            <div className="font-semibold">{v.title}</div>
+            <div className="text-sm text-white/60 mt-1">
+              {v.creator} • {v.language}
+            </div>
+          </Link>
+          ))}
+          </div>
           </a>
       
           <a
