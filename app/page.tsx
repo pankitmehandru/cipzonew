@@ -6,17 +6,36 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       <Header />
 
-      <section className="mx-auto flex max-w-5xl flex-col gap-3 px-6 py-16">
+      <section className="mx-auto max-w-5xl px-6 py-12">
         <h1 className="text-4xl font-bold">Cipzo</h1>
-
-        <p className="text-lg text-white/80">
+        <p className="mt-2 text-lg text-white/80">
           An Indian-first video platform for creators and communities.
         </p>
-
-        <p className="text-sm text-white/60">
+        <p className="mt-2 text-sm text-white/60">
           🚧 We’re building. Early access coming soon.
         </p>
+      
+        <div className="mt-10 grid gap-4 sm:grid-cols-2">
+          <a
+            href="/watch/1"
+            className="rounded-xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
+          >
+            <div className="aspect-video rounded-lg bg-white/10 mb-3" />
+            <div className="font-semibold">How to choose LED downlights (Demo)</div>
+            <div className="text-sm text-white/60 mt-1">Cipzo Demo • Hindi</div>
+          </a>
+      
+          <a
+            href="/watch/2"
+            className="rounded-xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
+          >
+            <div className="aspect-video rounded-lg bg-white/10 mb-3" />
+            <div className="font-semibold">UPI & creator income (Demo)</div>
+            <div className="text-sm text-white/60 mt-1">Cipzo Demo • English</div>
+          </a>
+        </div>
       </section>
+
 
       <Footer />
     </main>
