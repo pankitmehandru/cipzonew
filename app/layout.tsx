@@ -1,5 +1,6 @@
 import "./globals.css";
 
+
 export const metadata = {
   title: "Cipzo",
   description: "An Indian-first video platform",
