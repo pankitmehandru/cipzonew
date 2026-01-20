@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { videos } from "@/lib/videos";
+import { videos } from "../lib/videos";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
