@@ -16,35 +16,23 @@ export default function Home() {
         <p className="mt-2 text-sm text-white/60">
           🚧 We’re building. Early access coming soon.
         </p>
-      
+
         <div className="mt-10 grid gap-4 sm:grid-cols-2">
-        {videos.map((v) => (
-          <Link
-            key={v.id}
-            href={`/watch/${v.id}`}
-            className="rounded-xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
-          >
-            <div className="aspect-video rounded-lg bg-white/10 mb-3" />
-            <div className="font-semibold">{v.title}</div>
-            <div className="text-sm text-white/60 mt-1">
-              {v.creator} • {v.language}
-            </div>
-          </Link>
+          {videos.map((v) => (
+            <Link
+              key={v.id}
+              href={`/watch/${v.id}`}
+              className="rounded-xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
+            >
+              <div className="aspect-video rounded-lg bg-white/10 mb-3" />
+              <div className="font-semibold">{v.title}</div>
+              <div className="text-sm text-white/60 mt-1">
+                {v.creator} • {v.language}
+              </div>
+            </Link>
           ))}
-          </div>
-          </a>
-      
-          <a
-            href="/watch/2"
-            className="rounded-xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
-          >
-            <div className="aspect-video rounded-lg bg-white/10 mb-3" />
-            <div className="font-semibold">UPI & creator income (Demo)</div>
-            <div className="text-sm text-white/60 mt-1">Cipzo Demo • English</div>
-          </a>
         </div>
       </section>
-
 
       <Footer />
     </main>
