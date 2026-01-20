@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import { getVideoById } from "../../../../lib/videos";
+import { getVideoById } from "../../../lib/videos";
 
 export default async function Watch({
   params,
