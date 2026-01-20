@@ -9,12 +9,15 @@ export default function Header() {
         </Link>
 
         <nav className="flex items-center gap-6 text-sm text-white/80">
-          <Link href="/" className="hover:text-white">
-            Home
-          </Link>
-          <Link href="/about" className="hover:text-white">
-            About
-          </Link>
+        <Link href="/" className="hover:text-white">
+          Home
+        </Link>
+        <Link href="/about" className="hover:text-white">
+          About
+        </Link>
+        <Link href="/upload" className="hover:text-white">
+          Upload
+        </Link>
         </nav>
       </div>
     </header>
