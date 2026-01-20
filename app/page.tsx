@@ -21,7 +21,7 @@ export default function Home() {
             className="rounded-xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
           >
             <div className="aspect-video rounded-lg bg-white/10 mb-3" />
-            <div className="font-semibold">How to choose LED downlights (Demo)</div>
+            <div className="font-semibold">How to choose crypto</div>
             <div className="text-sm text-white/60 mt-1">Cipzo Demo • Hindi</div>
           </a>
       
