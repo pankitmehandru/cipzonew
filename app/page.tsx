@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
 
       <section className="mx-auto max-w-5xl px-6 py-12">
-        <h1 className="text-4xl font-bold">Cipzo</h1>
+        <h1 className="text-4xl font-bold text-white">Cipzo</h1>
         <p className="mt-2 text-lg text-white/80">
           An Indian-first video platform for creators and communities.
         </p>
