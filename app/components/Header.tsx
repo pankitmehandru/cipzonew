@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+
 export default function Header() {
   return (
     <header className="w-full border-b border-white/10 bg-black text-white">
